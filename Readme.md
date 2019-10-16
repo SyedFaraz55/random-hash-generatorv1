@@ -15,9 +15,11 @@ For development, you will only need Node.js and a node global package, Yarn, ins
 
 	const hsh = require("random-hash-generatorv1");
 	const hash = hsh.genHash("secret-key","val"); 
-	console.log(hash); 
-	//849636715926ddf405cadad48b0947d59cb57bfb123b4312a46d82b6e6a5725c
-
+	console.log(hash); //849636715926ddf405cadad48b0947d59cb57bfb123b4312a46d82b6e6a5725c
 	
+	(OR) 
+	
+	const hash = hsh.genHash();
+	console.log(hash); //405cadad48b0312a46d8da6d2sb0947d59cb57bfb123b4312a46d82b6e6a5725c
 
 ---
